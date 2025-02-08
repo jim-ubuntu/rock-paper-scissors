@@ -33,7 +33,7 @@ function playGame(computerChoice, humanChoice) {
     if (humanChoice == computerChoice){
         console.log("It's a draw.");
     }
-    else if (humanChoice == "Paper" & computerChoice == "Rock" ) {
+    else if (humanChoice == "Paper\" & computerChoice == "Rock" ) {
         humanScore += 1;
         console.log("Player wins!");
     }
@@ -51,8 +51,10 @@ function playGame(computerChoice, humanChoice) {
     }
 }
 
+for (i = 0; i<5; i++){
 compChoice = getComputerChoice();
 playerChoice = getHumanChoice(); 
 console.log("Computer chose " + compChoice +  "\nPlayer chose " + playerChoice)
 playGame(compChoice, playerChoice);
 console.log("Player score:" + humanScore + "\nComputer score:" + computerScore)
+}
