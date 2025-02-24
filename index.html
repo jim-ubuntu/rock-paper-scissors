@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="rps-script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
 </head>
 <body>
-    <script src="rps-script.js"></script>
+    <div class="choice-container">
+        <button class="button" id="rock">Rock</button>
+        <button class="button" id="paper">Paper</button>
+        <button class="button" id="scissors">Scissors</button>
+    </div>
+    <div class="outcome-container">
+        <h3 class="text" id="scoreline">The scoreline is: Player 0 - 0 Computer</h3>
+        <h2 class="text" id="roundwinner"></h2>
+        <h2 class="text" id="gamewinner"></h2>
+    </div>
 </body>
 </html>

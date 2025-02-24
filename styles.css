@@ -1,0 +1,39 @@
+.choice-container {
+   display:flex;
+   justify-content: space-around;
+}
+
+.button {
+    width: 200px;
+    height: 200px;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outcome-container{
+    border: solid, 10px;
+    border-color: rebeccapurple;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+/*#rock{
+
+}
+
+#paper {
+
+}
+
+#scissors {
+
+}*/
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
